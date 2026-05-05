@@ -3,7 +3,7 @@ const reverseButton = document.getElementById('reverseButton');
 const result = document.getElementById('result');
 
 function reverseString(value) {
-    return value.split('').reverse().join('');
+    return Array.from(value).reverse().join('');
 }
 
 reverseButton.addEventListener('click', () => {
