@@ -1,1 +1,1 @@
-
+Create JavaScript code for a web page that reverses the order of a string. Use the existing HTML structure with an input field (id='textInput'), a button (id='reverseButton'), and a result div (id='result'). When the button is clicked or Enter is pressed in the input, reverse the input text and display it in the result div. Handle empty input by showing a default message
